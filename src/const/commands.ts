@@ -79,7 +79,7 @@ My name is Mishri Soni and I am Graduated with Bachelor of Science (Information 
 Currently, My study of Cyber Security and Digital forensics is ongoing from Bascom Bridge educational institute Pvt.Ltd. I have also participated in Virtual Internship program of 'Cyber Secured India'  which will be completed this month.
 As I don't have professional or high quality experience, but I've basic knowledge of our field and if something is new to me I'll be able to learn that thing and would like to increase and explore my knowledge and ability to do something new and challenging.
 <br><br>
-Certifications:-<br>
+Certifications:-<br><br><br>
 1.	Name: Introduction to Dark web, anonymity and cryptocurrency
     Link: https://codered.eccouncil.org/certificate/529dd537-899b-47a6-89a5-8280c734f42b?logged=true<br><br>
 2.	Name: Cybrary: Challenge: Password123
