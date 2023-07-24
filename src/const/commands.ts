@@ -4,53 +4,35 @@ const commands: Map<string, string> = new Map<string, string>();
 
 commands.set("motd", motdText());
 commands.set("whoami", "root");
-commands.set("touch", "Why would you touch anything?");
+
 commands.set("rm", "Why would you remove anything?");
-commands.set("cat", "Here's a cute cat for you! 😊");
+
 commands.set("about", aboutText());
 commands.set("pwd", "/");
 commands.set("date", new Date().toLocaleString());
 commands.set("projects", projectsText());
 commands.set("kali", kaliLogo());
 commands.set("ls", projectsText());
-commands.set("github", openLink("https://github.com/0l1v3rr"));
-commands.set("linkedin", openLink("https://www.linkedin.com/in/0l1v3rr"));
-commands.set("repo", openLink("https://github.com/0l1v3rr/0l1v3rr.github.io"));
-commands.set("email", openLink("mailto:oliver.mrakovics@gmail.com"));
-commands.set(
-  "codersrank",
-  openLink("https://profile.codersrank.io/user/0l1v3rr/")
-);
-commands.set(
-  "socials",
-  "Usage: [command]<br><br>github, linkedin, email, codersrank"
-);
+
+commands.set("linkedin", openLink("https://www.linkedin.com/in/mishri-chapaneri-334173250/"));
+
+commands.set("email", openLink("mailto:mishrichapaneri16@gmail.com"));
+
 commands.set("help", helpText());
-commands.set("techstack", techStack());
+
 
 export const getCommandByName = (name: string): string => {
   name = name.trim().toLowerCase().split(" ")[0];
 
   // commands that require redirecting
   switch (name) {
-    case "github":
-      window.open("https://github.com/0l1v3rr", "_blank");
-      break;
-    case "repo":
-      window.open("https://github.com/0l1v3rr/0l1v3rr.github.io", "_blank");
-      break;
     case "linkedin":
-      window.open("https://www.linkedin.com/in/0l1v3rr", "_blank");
+      window.open("https://www.linkedin.com/in/mishri-chapaneri-334173250/", "_blank");
       break;
     case "email":
-      window.open("mailto:oliver.mrakovics@gmail.com", "_blank");
+      window.open("mailto:mishrichapaneri16@gmail.com", "_blank");
       break;
-    case "codersrank":
-      window.open("https://profile.codersrank.io/user/0l1v3rr/", "_blank");
-      break;
-    case "cat":
-      window.open("https://cataas.com/cat/cute", "_blank");
-      break;
+
   }
 
   return commands.get(name) || `${name}: command not found`;
@@ -67,20 +49,9 @@ export const getCommandNames = (): string[] => {
 
 export function motdText(): string {
   return `
-    Welcome to 0l1v3rr.github.io!<br>
+    Welcome to My Portfolio!<br>
 
-    <br>&nbsp;* GitHub: 
-    <a class="terminal-link" href="https://github.com/0l1v3rr" target="_blank" rel="noreferrer">
-      https://github.com/0l1v3rr
-    </a>
-
-    <br>&nbsp;* Repo: 
-    <a class="terminal-link" href="https://github.com/0l1v3rr/0l1v3rr.github.io" target="_blank" rel="noreferrer">
-      https://github.com/0l1v3rr/0l1v3rr.github.io
-    </a>
-
-    <br>
-    <br>&nbsp;* Type 'help' to see the list of available commands.
+   
   `;
 }
 
@@ -104,23 +75,9 @@ function aboutText(): string {
     Hello, root!
     <br><br>
 
-    I'm a passionate <span class="terminal-bold">Full-Stack Web Developer</span> from <span class="terminal-bold">Hungary</span>.
-    <br>
-    Most of the time, I work with <span class="terminal-bold">TypeScript</span>, but I love <span class="terminal-bold">Go</span> as well.
-
-    <br><br>
-    Mentionable tools I use on a daily basis:
-    <br>
-    &nbsp; * <span class="terminal-bold">Backend</span>: Laravel, Golang
-    <br>
-    &nbsp; * <span class="terminal-bold">Frontend</span>: React, TailwindCSS, TypeScript
-    <br>
-    &nbsp; * <span class="terminal-bold">Other</span>: Docker, Git
-    <br><br>
-
-    Would you like to connect with me? Enter the 'socials' command!<br>
-    Want to take a look at my projects? 
-    Enter the 'projects' command or visit my GitHub with the 'github' command!
+My name is Mishri Soni and I am Graduated with Bachelor of Science (Information Technology) from Shree Swaminarayan Gurukul College of Computer Science.
+Currently, My study of Cyber Security and Digital forensics is ongoing from Bascom Bridge educational institute Pvt.Ltd. I have also participated in Virtual Internship program of 'Cyber Secured India'  which will be completed this month.
+As I don't have professional or high quality experience, but I've basic knowledge of our field and if something is new to me I'll be able to learn that thing and would like to increase and explore my knowledge and ability to do something new and challenging.
   `;
 }
 
@@ -219,6 +176,4 @@ function kaliLogo() {
   `;
 }
 
-function techStack() {
-  return `<a href="https://github.com/0l1v3rr/github-readme-tech-stack" target="_blank"><img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Tech%20Stack&align=center&titleAlign=center&fontSize=20&lineCount=2&theme=0l1v3rr&line1=laravel,laravel,auto;go,golang,00add8;docker,docker,auto;&line2=react,react,2d79c7;tailwindcss,tailwind,38bdf8;typescript,typescript,2d79c7;&width=420" alt="My Tech Stack" /></a>`;
-}
+
