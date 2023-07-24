@@ -50,7 +50,7 @@ export const getCommandNames = (): string[] => {
 export function motdText(): string {
   return `
     Welcome to My Portfolio!<br>
-
+ <br>&nbsp;* Type 'help' to see the list of available commands.
    
   `;
 }
