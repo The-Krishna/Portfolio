@@ -1,4 +1,4 @@
-import { projects } from "./projects";
+//import { projects } from "./projects";
 
 const commands: Map<string, string> = new Map<string, string>();
 
@@ -89,21 +89,21 @@ function openLink(link: string): string {
     `;
 }
 
-function projectsText(): string {
-  return `
-    ${projects
-      .map((project) => {
-        return `
-        <a 
-          class="project-${project.category}"
-          href="${project.link}"
-          target="_blank"
-          rel="noreferrer"
-        >${project.name}</a>`;
-      })
-      .join("&nbsp;&nbsp;&nbsp;")}
-  `;
-}
+//function projectsText(): string {
+ // return `
+  //  ${projects
+   //   .map((project) => {
+   //     return `
+   //     <a 
+   //       class="project-${project.category}"
+      //    href="${project.link}"
+      //    target="_blank"
+      //    rel="noreferrer"
+     //   >${project.name}</a>`;
+    //  })
+    //  .join("&nbsp;&nbsp;&nbsp;")}
+ // `;
+//}
 
 function kaliLogo() {
   return `
