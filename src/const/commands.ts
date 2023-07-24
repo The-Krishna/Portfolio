@@ -12,7 +12,7 @@ commands.set("pwd", "/");
 commands.set("date", new Date().toLocaleString());
 commands.set("projects", projectsText());
 commands.set("kali", kaliLogo());
-commands.set("ls", projectsText());
+//commands.set("ls", projectsText());
 
 commands.set("linkedin", openLink("https://www.linkedin.com/in/mishri-chapaneri-334173250/"));
 
