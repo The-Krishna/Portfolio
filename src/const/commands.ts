@@ -10,7 +10,7 @@ commands.set("rm", "Why would you remove anything?");
 commands.set("about", aboutText());
 commands.set("pwd", "/");
 commands.set("date", new Date().toLocaleString());
-commands.set("projects", projectsText());
+//commands.set("projects", projectsText());
 commands.set("kali", kaliLogo());
 //commands.set("ls", projectsText());
 
