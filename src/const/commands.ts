@@ -76,7 +76,7 @@ function aboutText(): string {
     <br><br>
 
 My name is Mishri Soni and I am Graduated with Bachelor of Science (Information Technology) from Shree Swaminarayan Gurukul College of Computer Science.
-Currently, My study of Cyber Security and Digital forensics is ongoing from Bascom Bridge educational institute Pvt.Ltd. I have also participated in Virtual Internship program of 'Cyber Secured India'  which will be completed this month.
+Currently, My study of Cyber Security and Digital forensics is ongoing from Bascom Bridge educational institute Pvt.Ltd. I have also participated in Virtual Internship program of 'Cyber Secured India' and 'Hacker Bro Technologies' which has been completed. I have participated in WAPT virtual Internship of 'Chaitanya Cybestrix'.
 As I don't have professional or high quality experience, but I've basic knowledge of our field and if something is new to me I'll be able to learn that thing and would like to increase and explore my knowledge and ability to do something new and challenging.
 <br><br>
 Certifications:-<br><br><br>
@@ -98,7 +98,8 @@ Certifications:-<br><br><br>
     Link: https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Clifford%20Chance/33CKX5eTKH3dXer7X_Clifford%20Chance_2sWw6feNxh3GkoYoS_1679837167191_completion_certificate.pdf<br><br>
 9.  Name: Shields Up: Cyber security Virtual Experience Program
     Link: https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/AIG/2ZFnEGEDKTQMtEv9C_AIG_2sWw6feNxh3GkoYoS_1679984838744_completion_certificate.pdf<br><br>
-
+10. Name: Hacker Bro Technologies Virtual Internship
+    Link: https://credsverse.com/credentials/cbd21fc5-0687-4923-88fb-038f5b46dc10
 
 
   
